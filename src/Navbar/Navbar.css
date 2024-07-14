@@ -1,0 +1,51 @@
+.contact{
+    position: relative;
+    top: 200px;
+    margin-bottom: -170px;
+    margin-top: -200px;
+}
+
+.contactForm> h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+
+.contactForm{
+    position: relative;
+    top: -380px;
+    left: 50%;
+    /* padding: 10px 10px; */
+    width: 50%;
+    border-radius: 15px;
+}
+
+.Navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 15px 15px;
+    position: sticky;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+}
+.Navigation h1{
+    font: bolder;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navigation_list{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.active{
+    color: red;
+}
